@@ -15,10 +15,15 @@ jobs:
           xcode-version: latest-stable
       - name: Test on iOS Simulator
         run: |
+          simulator_udid="$(xcrun simctl list devices available | sed -nE '/iPhone .*\([0-9A-F-]{36}\) \((Shutdown|Booted)\)/{s/.*\(([0-9A-F-]{36})\).*/\1/p;q;}')"
+          if [ -z "$simulator_udid" ]; then
+            echo "No available iPhone simulator found" >&2
+            exit 1
+          fi
           xcodebuild \
             -project DiveReadyOW.xcodeproj \
             -scheme DiveReadyOW \
             -sdk iphonesimulator \
-            -destination 'generic/platform=iOS Simulator' \
+            -destination "id=$simulator_udid" \
             -derivedDataPath "$RUNNER_TEMP/DiveReadyOW-DerivedData" \
             test
