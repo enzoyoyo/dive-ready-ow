@@ -203,7 +203,7 @@ final class StudyStore {
     }
 
     func completedCourseCount(for catalog: StudyCatalog) -> Int {
-        catalog.courses.filter(isCoursePreviewRead).count
+        catalog.courses.filter { isCoursePreviewRead($0) }.count
     }
 
     private func persist() {

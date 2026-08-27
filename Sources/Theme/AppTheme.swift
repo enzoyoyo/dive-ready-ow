@@ -106,6 +106,7 @@ extension View {
 
     @ViewBuilder
     func diveGlassControl(cornerRadius: CGFloat = 22) -> some View {
+#if compiler(>=6.2)
         if #available(iOS 26.0, *) {
             glassEffect(
                 .regular.interactive(),
@@ -118,6 +119,13 @@ extension View {
                         .stroke(AppTheme.hairline, lineWidth: 0.8)
                 }
         }
+#else
+        background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .stroke(AppTheme.hairline, lineWidth: 0.8)
+            }
+#endif
     }
 
     func diveMediaLabel(cornerRadius: CGFloat = 16) -> some View {
@@ -130,10 +138,14 @@ extension View {
 
     @ViewBuilder
     func diveModernTabBehavior() -> some View {
+#if compiler(>=6.2)
         if #available(iOS 26.0, *) {
             tabBarMinimizeBehavior(.onScrollDown)
         } else {
             self
         }
+#else
+        self
+#endif
     }
 }
