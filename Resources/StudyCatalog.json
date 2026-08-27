@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 2,
+  "courses": [
+    {
+      "id": "demo-breathing",
+      "chapter": "01 · Fundamentals",
+      "title": "持续呼吸与气泡",
+      "summary": "公开演示课：理解持续呼吸、缓慢吐泡与必须由教练现场确认的水中边界。",
+      "coverImageName": null,
+      "durationMinutes": 6,
+      "isCritical": true,
+      "validationStage": "inWaterValidation",
+      "keyPoints": [
+        "持续呼吸，不憋气",
+        "动作不适时停止并示意教练",
+        "水中技能必须由教练现场验证"
+      ],
+      "frames": [
+        {
+          "id": "demo-breathing-01",
+          "title": "看呼吸节奏",
+          "body": "观察自己是否保持平稳、连续的呼吸节奏。",
+          "symbolName": "wind",
+          "accessibilityDescription": "持续呼吸的示意图",
+          "imageName": null,
+          "timestampLabel": null
+        },
+        {
+          "id": "demo-breathing-02",
+          "title": "留意气泡",
+          "body": "任何水中练习都应遵循教练示范与当次环境要求。",
+          "symbolName": "bubbles.and.sparkles",
+          "accessibilityDescription": "水下气泡的示意图",
+          "imageName": null,
+          "timestampLabel": null
+        }
+      ],
+      "source": {
+        "title": "公开演示内容",
+        "locator": "呼吸基础",
+        "note": "这是可替换的示例内容，不是认证标准或医疗建议。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Diver Safety",
+            "locator": "公开安全资料入口",
+            "url": "https://dan.org/safety-prevention/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-buddy-check",
+      "chapter": "02 · Preparation",
+      "title": "潜伴互检",
+      "summary": "公开演示课：把装备、气源与沟通方式放进下水前的共同检查。",
+      "coverImageName": null,
+      "durationMinutes": 8,
+      "isCritical": true,
+      "validationStage": "instructorCheck",
+      "keyPoints": [
+        "与潜伴逐项确认装备",
+        "确认双方理解手势与应对计划",
+        "不确定时停下来询问教练"
+      ],
+      "frames": [
+        {
+          "id": "demo-buddy-check-01",
+          "title": "逐项检查",
+          "body": "检查顺序和具体装备，以当次教练与潜点要求为准。",
+          "symbolName": "checklist",
+          "accessibilityDescription": "检查清单的示意图",
+          "imageName": null,
+          "timestampLabel": null
+        }
+      ],
+      "source": {
+        "title": "公开演示内容",
+        "locator": "潜伴沟通与装备检查",
+        "note": "请用教练提供的实际装备和程序完成检查。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Diver Safety",
+            "locator": "公开安全资料入口",
+            "url": "https://dan.org/safety-prevention/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-equalization",
+      "chapter": "03 · Comfort",
+      "title": "提前、频繁、温和等压",
+      "summary": "公开演示课：把等压当成持续观察和及时沟通的过程，不追求硬撑或强行完成。",
+      "coverImageName": null,
+      "durationMinutes": 7,
+      "isCritical": true,
+      "validationStage": "instructorCheck",
+      "keyPoints": [
+        "在不适出现前开始等压",
+        "失败时停止、示意、稍升再试",
+        "疼痛或不适时不要强行继续"
+      ],
+      "frames": [
+        {
+          "id": "demo-equalization-01",
+          "title": "提前开始",
+          "body": "把等压安排在下降过程里，并持续留意身体反馈。",
+          "symbolName": "arrow.down.to.line",
+          "accessibilityDescription": "下降与等压的示意图",
+          "imageName": null,
+          "timestampLabel": null
+        }
+      ],
+      "source": {
+        "title": "公开演示内容",
+        "locator": "耳部舒适与等压",
+        "note": "身体状况、方法和停止标准请由持证教练确认。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Ear Equalization",
+            "locator": "公开耳部等压指南",
+            "url": "https://dan.org/safety-prevention/diver-safety/divers-blog/ear-equalization-guidelines-for-scuba-divers/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-emergency-plan",
+      "chapter": "04 · Planning",
+      "title": "先确认应急计划",
+      "summary": "公开演示课：下水前确认现场、通信、受训人员与转运路径，App 不诊断也不替代急救。",
+      "coverImageName": null,
+      "durationMinutes": 5,
+      "isCritical": true,
+      "validationStage": "instructorCheck",
+      "keyPoints": [
+        "先确保现场和救助者安全",
+        "确认当地急救系统与潜店计划",
+        "只在受训范围内行动并尽快寻求专业帮助"
+      ],
+      "frames": [
+        {
+          "id": "demo-emergency-plan-01",
+          "title": "把联络链写下来",
+          "body": "出发前记录当地急救、潜店、医疗机构和转运方式；不要把示例号码当成实际号码。",
+          "symbolName": "phone.badge.waveform",
+          "accessibilityDescription": "应急联络计划的示意图",
+          "imageName": null,
+          "timestampLabel": null
+        }
+      ],
+      "source": {
+        "title": "公开演示内容",
+        "locator": "应急行动计划",
+        "note": "这是流程模板，不包含地区专属号码或医疗诊断。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Emergency Assistance",
+            "locator": "公开应急协助说明",
+            "url": "https://dan.org/health-medicine/medical-services/emergency-assistance/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "demo-q1",
+      "courseID": "demo-breathing",
+      "prompt": "在水中练习时，哪项最符合安全的基础原则？",
+      "choices": [
+        { "id": "a", "text": "持续呼吸，并按教练要求行动" },
+        { "id": "b", "text": "为了省气而屏住呼吸" },
+        { "id": "c", "text": "感到不适也继续完成动作" }
+      ],
+      "correctChoiceID": "a",
+      "explanation": "持续呼吸和及时沟通是基础边界；具体技能必须由教练示范并现场验证。",
+      "confidence": "needsInstructorCheck",
+      "sourceEvidence": "officialOnly",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "呼吸基础",
+        "note": "示例题不是任何机构的正式考试题。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Diver Safety",
+            "locator": "公开安全资料入口",
+            "url": "https://dan.org/safety-prevention/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-q2",
+      "courseID": "demo-buddy-check",
+      "prompt": "潜伴互检的正确做法是什么？",
+      "choices": [
+        { "id": "a", "text": "各自快速看一眼就下水" },
+        { "id": "b", "text": "按当次教练与装备要求逐项共同确认" },
+        { "id": "c", "text": "只检查自己最熟悉的装备" }
+      ],
+      "correctChoiceID": "b",
+      "explanation": "互检是共同沟通和确认，不是单方面目测；实际顺序应遵循教练和潜点程序。",
+      "confidence": "needsInstructorCheck",
+      "sourceEvidence": "officialOnly",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "潜伴沟通与装备检查",
+        "note": "示例题不是任何机构的正式考试题。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Diver Safety",
+            "locator": "公开安全资料入口",
+            "url": "https://dan.org/safety-prevention/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-q3",
+      "courseID": "demo-equalization",
+      "prompt": "等压出现疼痛或失败时，应该怎么做？",
+      "choices": [
+        { "id": "a", "text": "更用力地继续" },
+        { "id": "b", "text": "停止、示意教练并按指导处理" },
+        { "id": "c", "text": "先憋气等待不适消失" }
+      ],
+      "correctChoiceID": "b",
+      "explanation": "不适或失败时不应硬撑；停止并沟通，具体处理由教练结合当次环境指导。",
+      "confidence": "needsInstructorCheck",
+      "sourceEvidence": "officialOnly",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "耳部舒适与等压",
+        "note": "示例题不是任何机构的正式考试题。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Ear Equalization",
+            "locator": "公开耳部等压指南",
+            "url": "https://dan.org/safety-prevention/diver-safety/divers-blog/ear-equalization-guidelines-for-scuba-divers/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-q4",
+      "courseID": "demo-emergency-plan",
+      "prompt": "应急计划应在什么时候确认？",
+      "choices": [
+        { "id": "a", "text": "出问题后再临时查找" },
+        { "id": "b", "text": "下水前与潜店或教练确认" },
+        { "id": "c", "text": "只记住一个未经核对的号码" }
+      ],
+      "correctChoiceID": "b",
+      "explanation": "通信、人员、医疗和转运路径应提前确认；地区号码不能从示例内容直接推断。",
+      "confidence": "needsInstructorCheck",
+      "sourceEvidence": "officialOnly",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "应急行动计划",
+        "note": "示例题不是医疗或急救认证题。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Emergency Assistance",
+            "locator": "公开应急协助说明",
+            "url": "https://dan.org/health-medicine/medical-services/emergency-assistance/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    }
+  ],
+  "quickReferences": [
+    {
+      "id": "quick-pre-dive-plan",
+      "category": "下水前",
+      "title": "三分钟确认清单",
+      "summary": "把装备、潜伴、通信与停止标准在下水前说清楚。",
+      "steps": [
+        "确认当次装备、气源和个人适应情况。",
+        "与潜伴复述沟通手势、路线和返回计划。",
+        "确认不适、天气或装备异常时的停止与上水方式。"
+      ],
+      "warning": "具体顺序和装备要求以现场教练与潜店计划为准。",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "下水前准备",
+        "note": "这是通用模板，不是当地潜店 EAP。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Diver Safety",
+            "locator": "公开安全资料入口",
+            "url": "https://dan.org/safety-prevention/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "quick-equalization",
+      "category": "舒适",
+      "title": "等压不硬撑",
+      "summary": "提前开始、频繁观察、温和处理；失败时暂停并沟通。",
+      "steps": [
+        "在下降前和下降过程中按教练示范进行。",
+        "保持放松，持续观察耳部和身体反馈。",
+        "疼痛或失败时停止、示意、稍升并听从教练。"
+      ],
+      "warning": "疼痛、眩晕或持续不适时停止练习并寻求专业意见。",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "耳部舒适与等压",
+        "note": "方法与适用性需要由教练或医疗专业人员确认。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Ear Equalization",
+            "locator": "公开耳部等压指南",
+            "url": "https://dan.org/safety-prevention/diver-safety/divers-blog/ear-equalization-guidelines-for-scuba-divers/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "quick-emergency-plan",
+      "category": "应急",
+      "title": "先启动当地应急链",
+      "summary": "先确保现场安全，再联系当地急救系统并按既定计划转运。",
+      "steps": [
+        "确保现场和救助者安全，按当地调度系统求助。",
+        "只由受训人员在能力范围内提供急救或供氧。",
+        "准备地点、回拨方式、潜水资料和症状时间线，交给专业人员。"
+      ],
+      "warning": "不要用 App 自行诊断、返潜、制定治疗方案或推断地区号码。",
+      "source": {
+        "title": "公开演示内容",
+        "locator": "应急行动计划",
+        "note": "出发前必须使用当地官方号码和潜店 EAP 更新模板。",
+        "sourceRefs": [
+          {
+            "kind": "official",
+            "title": "Divers Alert Network · Emergency Assistance",
+            "locator": "公开应急协助说明",
+            "url": "https://dan.org/health-medicine/medical-services/emergency-assistance/",
+            "accessedAt": null,
+            "reviewAfter": null
+          }
+        ]
+      }
+    }
+  ],
+  "emergencyContacts": []
+}
